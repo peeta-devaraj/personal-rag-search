@@ -1,0 +1,14 @@
+backend/venv/
+backend/data/uploads/
+backend/data/chroma_db/
+backend/data/bm25_index.pkl
+backend/data/app.db
+backend/.env
+__pycache__/
+*.pyc
+.pytest_cache/
+
+frontend/node_modules/
+frontend/dist/
+
+.DS_Store

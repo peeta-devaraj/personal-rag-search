@@ -1,0 +1,7 @@
+The vector space model represents documents and queries as vectors in a high-dimensional space, where each dimension corresponds to a term from the vocabulary. Similarity between a query and a document is typically computed using cosine similarity between their vectors.
+
+BM25 is a ranking function used by search engines to estimate the relevance of documents to a given search query. It is based on the probabilistic retrieval framework and improves upon simple TF-IDF weighting by incorporating term frequency saturation and document length normalization.
+
+Dense retrieval methods use neural network embeddings to represent queries and documents as dense vectors, capturing semantic meaning rather than just lexical overlap. This allows retrieval systems to find relevant documents even when they do not share exact keywords with the query, addressing the vocabulary mismatch problem that plagues purely sparse retrieval methods.
+
+Reciprocal Rank Fusion (RRF) is a simple and effective method for combining ranked lists from multiple retrieval systems. Each document's fused score is computed as the sum of 1 divided by a constant plus its rank in each individual ranked list, without needing to normalize the original relevance scores.
